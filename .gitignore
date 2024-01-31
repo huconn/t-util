@@ -1,0 +1,33 @@
+*.o
+*.d
+*.log
+*.so*
+*.su
+bin/*
+lib/*
+module/*
+build/*
+*.cmd
+*.ko
+modules
+*.symvers
+*.order
+*.mod.c
+*.bak
+
+# ignore cmake-related
+cmake_install.cmake
+CMakeFiles
+CMakeCache.txt
+
+# ignore coverity-related
+idir
+**/build/*
+.vscode/*
+_cov_results_/*
+coverity.conf
+.vscode
+cov_*sh
+tc_coverity
+*.xlsx
+

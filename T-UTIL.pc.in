@@ -1,0 +1,10 @@
+prefix="@CMAKE_INSTALL_PREFIX@"
+exec_prefix="${prefix}"
+libdir="${prefix}/lib"
+includedir="${prefix}/include"
+
+Name: Telechips T-UTIL
+Description: Telechips T-UTIL Libraries and binaries
+Version: 1.0.0
+Libs: -L${libdir} -ltu_jp_factory -ltu_calc @PC_LIB_REPORT@
+Cflags: -I${includedir}
